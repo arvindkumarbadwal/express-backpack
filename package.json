@@ -1,0 +1,17 @@
+{
+  "name": "backpack",
+  "version": "1.0.0",
+  "description": "backpack basic example",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack dev",
+    "build": "backpack build"
+  },
+  "author": "Arvindkumar Badwal <arvindkumar.b@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "backpack-core": "^0.5.0",
+    "express": "^4.16.2"
+  }
+}
